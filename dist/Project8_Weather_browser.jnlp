@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Project8_Weather_browser.jnlp">
+  <information>
+    <title>Project8_Weather</title>
+    <vendor>proxc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Project8_Weather.jar" size="7563" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="project8.Home8"  name="Project8_Weather" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
